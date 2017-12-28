@@ -1,0 +1,147 @@
+li {
+	list-style: none;
+}
+a {
+	color: #000;
+	text-decoration: none;
+}
+.clearfix:after { 
+	content: "."; 
+	display: block; 
+	height: 0; 
+	clear: both; 
+	visibility: hidden; 
+}
+.clearfix { 
+	display: block;
+	*zoom:1;
+}
+* html .clearfix { 
+	height: 1%; 
+}
+.fl {
+	float: left;
+}
+.fr {
+	float: right;
+}
+body {
+	margin: 0;
+	padding: 0;
+	color: #333;
+	font-size: 14px;
+	border-top: 8px solid #006f47;
+}
+.container {
+	width: 960px;
+	margin: 0 auto;
+}
+/* header begin */
+header {
+	margin-top: 10px;
+}
+header nav {
+	margin-top: 65px;
+}
+header nav li {
+	float: left;
+	height: 30px;
+	line-height: 30px;
+	background: #efe5d0;
+	margin-right: 15px;
+	padding: 0 8px;
+}
+header nav li a {
+	color: #006f47;
+	font-weight: bold;
+}
+header nav li.action,header nav li:hover {
+	background: #c8b99c;
+}
+/* header end */
+.content {	
+	margin-top: 10px;
+}
+/* aside begin */
+.content aside {
+	width: 350px;
+}
+section {
+	margin-bottom: 10px;
+	padding: 15px 20px 5px;
+	background: url(../images/background.gif) 0 0 repeat;
+}
+section header {
+	color: #006f47;
+	font-size: 16px;
+}
+.intro p {
+	line-height: 25px;
+}
+.intro a {
+	color: #006f47;
+}
+.coffee {
+	padding-bottom: 30px;
+}
+.coffee figure {
+	width: 145px;
+	float: left;
+}
+.coffee figure:nth-child(odd) {
+	margin: 20px 0px 0px;
+}
+.coffee figure:nth-child(even) {
+	margin: 20px 20px 0px 0px;	
+}
+.coffee img {
+	width: 140px;
+	height: 158px;
+	border: 2px solid #fff;
+}
+.coffee figcaption {
+	text-align: center;
+}
+/* aside end */
+/* main begin */
+.content main {
+	width: 600px;
+	padding: 10px 0px 30px;
+	background: url(../images/background.gif) 0 0 repeat;
+}
+.content article {
+	margin: 13px 20px 0px;
+	padding-bottom: 11px;
+	border-bottom: 1px dashed #c8b99c;
+}
+.content article header {
+	font-size: 16px;
+	margin-bottom: 15px;
+}
+.content article header a {
+	color: #006f47;
+}
+.content article time,.content article p b {
+	color: #675c47;
+}
+.content article p {
+	text-indent: 2em;
+	line-height: 20px;
+}
+.content article p i {
+	color: #878785;
+	font-style: normal;
+}
+.content article footer {
+	color: #746f59;
+	float: right;
+}
+/* main end */
+.footer {
+	color: #fff;
+	height: 48px;
+	line-height: 48px;
+	background: #675c47;
+	text-align: center;
+	margin-top: 10px;
+}
